@@ -7,7 +7,7 @@ const Signup = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(//Your fetch api here
+            const response = await fetch(//Your createuser api here
                 ,{
                 method: 'POST',
                 headers: {
