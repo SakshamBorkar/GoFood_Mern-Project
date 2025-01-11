@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://sakshamborkar23:aV1ODhrwocqQVSFE@cluster0.altu0.mongodb.net/GoFood-Mern?retryWrites=true&w=majority&appName=Cluster0'
+const mongoURI = //Add your MongoDB URI
 
 const ConnectToMongo = async () => {
     try {
