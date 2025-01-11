@@ -10,7 +10,8 @@ export default function Home() {
 
     const loadData = async () => {
         try {
-            let response = await fetch("http://localhost:3001/api/foodData", {
+            let response = await fetch(//foodData api here
+                , {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
