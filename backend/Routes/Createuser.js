@@ -5,7 +5,7 @@ const { body, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-const jwtSecret = "MyNameIsSakshamBorkarAndIStudyAt" //should be 32bit
+const jwtSecret = //Add your JWT secret //should be 32bit
 
 router.use(express.json());
 
